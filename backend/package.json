@@ -1,0 +1,9 @@
+{
+  "name": "game-exchanger-backend",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Backend (SQLite double-entry ledger, webhooks, scheduler, price feed) and connected frontend for Game Exchanger",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": { "start": "node server.js", "test": "node test.js" }
+}
